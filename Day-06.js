@@ -44,3 +44,23 @@ console.log(k);
 arr.forEach((i)=>{
     console.log(i);
 });
+
+
+let matirx=[[1,2,3],[4,5,6],[7,8,9]];
+
+console.log(matirx)
+
+matirx.forEach( (row)=>{
+    row.forEach( (element)=>{
+        console.log(element)
+    } )
+    } )
+    
+//anouther way to print the matrix
+let ft=matirx.flat(Infinity)
+
+console.log(ft)
+
+//task 13
+
+console.log("matrix's first row 3rd columb element is ",matirx[0][2]);
