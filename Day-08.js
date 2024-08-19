@@ -62,6 +62,7 @@ console.log(student);
 console.log(student.name);
 console.log(student.total());
 
+// task9
 let prop1 ="gender"
 let prop2 ="address"
 
